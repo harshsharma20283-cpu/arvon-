@@ -1,6 +1,7 @@
-import React, { useEffect, useRef } from "react";
+﻿import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { Sparkles, ArrowRight, Flame, ShieldCheck, HeartHandshake } from "lucide-react";
+import Hero3DScene from "./Hero3DScene";
 
 export default function HeroBanner({ onExploreClick }) {
   const heroRef = useRef(null);
@@ -69,7 +70,7 @@ export default function HeroBanner({ onExploreClick }) {
         <div className="hero-copy-col">
           <div className="hero-edition-pill" ref={badgeRef}>
             <Sparkles size={14} className="sparkle-gold" />
-            <span>Autumn Kiln Firing • Release No. 04</span>
+            <span>Autumn Kiln Firing â€¢ Release No. 04</span>
           </div>
 
           <h1 className="hero-main-title" ref={titleRef}>
@@ -80,7 +81,7 @@ export default function HeroBanner({ onExploreClick }) {
           <p className="hero-subtitle" ref={subtitleRef}>
             Tactile ceramic mugs, fluted amphora vases, and organic tablewares
             handcrafted from mineral stoneware clay. Each piece is individually
-            wheel-thrown and high-fired at 1240°C in Indian studio kilns.
+            wheel-thrown and high-fired at 1240Â°C in Indian studio kilns.
           </p>
 
           <div className="hero-actions-row" ref={buttonsRef}>
@@ -104,7 +105,7 @@ export default function HeroBanner({ onExploreClick }) {
             <div className="micro-feature-item">
               <Flame size={17} className="feature-icon flame-icon" />
               <div>
-                <strong>1240°C High Fired</strong>
+                <strong>1240Â°C High Fired</strong>
                 <span>Vitrified &amp; thermal shock resistant</span>
               </div>
             </div>
@@ -128,11 +129,8 @@ export default function HeroBanner({ onExploreClick }) {
         {/* Right Column: Hero Visual Showcase */}
         <div className="hero-visual-col" ref={visualCardRef}>
           <div className="hero-visual-card">
-            <img
-              src="/images/hero-showcase.svg"
-              alt="Arvon Dune Speckled Ceramic Mug"
-              className="hero-primary-img"
-            />
+            <Hero3DScene />
+
             <div className="hero-img-overlay"></div>
 
             {/* Floating details tag */}
@@ -140,7 +138,7 @@ export default function HeroBanner({ onExploreClick }) {
               <div className="pill-dot"></div>
               <div>
                 <span className="pill-title">The Dune Speckled Mug</span>
-                <span className="pill-price">₹899 • Cone 10 Stoneware</span>
+                <span className="pill-price">â‚¹899 â€¢ Cone 10 Stoneware</span>
               </div>
             </div>
 
@@ -158,3 +156,4 @@ export default function HeroBanner({ onExploreClick }) {
     </section>
   );
 }
+
