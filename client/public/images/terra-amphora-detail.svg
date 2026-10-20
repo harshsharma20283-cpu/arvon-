@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="amphora-detail-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFE5D8"/>
+      <stop offset="100%" stop-color="#D7C3AE"/>
+    </linearGradient>
+    <linearGradient id="ear-handle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E27E56"/>
+      <stop offset="100%" stop-color="#803517"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#amphora-detail-bg)"/>
+  <!-- Macro view of pinched earthenware ear handle joinery -->
+  <path d="M400 100 L400 700 Q400 750 600 750 L750 750 L750 100 Z" fill="#B85832"/>
+  <path d="M400 250 C180 250 160 550 400 550" fill="none" stroke="url(#ear-handle)" stroke-width="70" stroke-linecap="round"/>
+  <!-- Potter's Thumb Impression at the base of the handle -->
+  <ellipse cx="400" cy="550" rx="45" ry="35" fill="#803517" opacity="0.6"/>
+  <text x="560" y="440" font-family="'Cinzel', serif" font-size="28" font-weight="700" fill="#F8EDE7" letter-spacing="3">ARVON</text>
+  <text x="560" y="475" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#E2B49D" letter-spacing="2">HAND-PINCHED</text>
+</svg>

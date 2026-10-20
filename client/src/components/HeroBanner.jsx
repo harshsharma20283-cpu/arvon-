@@ -13,53 +13,50 @@ export default function HeroBanner({ onExploreClick }) {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Timeline for hero entrance
-      const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+      // Short page-load entrance animation strictly animating ONLY transform and opacity
+      const tl = gsap.timeline({ defaults: { ease: "power2.out", duration: 0.55 } });
 
       tl.fromTo(
-        badgeRef.current,
-        { opacity: 0, y: -20 },
-        { opacity: 1, y: 0, duration: 0.8 }
+        ".navbar-wrapper",
+        { opacity: 0, y: -16 },
+        { opacity: 1, y: 0 }
       )
         .fromTo(
+          badgeRef.current,
+          { opacity: 0, y: -12 },
+          { opacity: 1, y: 0 },
+          "-=0.35"
+        )
+        .fromTo(
           titleRef.current,
-          { opacity: 0, y: 30 },
-          { opacity: 1, y: 0, duration: 0.9 },
-          "-=0.5"
+          { opacity: 0, y: 16 },
+          { opacity: 1, y: 0 },
+          "-=0.4"
         )
         .fromTo(
           subtitleRef.current,
-          { opacity: 0, y: 20 },
-          { opacity: 1, y: 0, duration: 0.8 },
-          "-=0.5"
+          { opacity: 0, y: 12 },
+          { opacity: 1, y: 0 },
+          "-=0.4"
         )
         .fromTo(
           buttonsRef.current,
-          { opacity: 0, y: 20 },
-          { opacity: 1, y: 0, duration: 0.7 },
+          { opacity: 0, y: 12 },
+          { opacity: 1, y: 0 },
           "-=0.4"
         )
         .fromTo(
           featuresRef.current,
-          { opacity: 0, y: 25 },
-          { opacity: 1, y: 0, duration: 0.8 },
-          "-=0.3"
+          { opacity: 0, y: 12 },
+          { opacity: 1, y: 0 },
+          "-=0.4"
         )
         .fromTo(
           visualCardRef.current,
-          { opacity: 0, scale: 0.95, x: 20 },
-          { opacity: 1, scale: 1, x: 0, duration: 1.1 },
-          "-=1.1"
+          { opacity: 0, scale: 0.96 },
+          { opacity: 1, scale: 1 },
+          "-=0.5"
         );
-
-      // Subtle continuous floating motion on visual card badge
-      gsap.to(".floating-ceramic-pill", {
-        y: -8,
-        duration: 2.2,
-        repeat: -1,
-        yoyo: true,
-        ease: "sine.inOut"
-      });
     }, heroRef);
 
     return () => ctx.revert();
@@ -132,8 +129,8 @@ export default function HeroBanner({ onExploreClick }) {
         <div className="hero-visual-col" ref={visualCardRef}>
           <div className="hero-visual-card">
             <img
-              src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1200&q=80"
-              alt="Pebble Dune Speckled Ceramic Mug"
+              src="/images/hero-showcase.svg"
+              alt="Arvon Dune Speckled Ceramic Mug"
               className="hero-primary-img"
             />
             <div className="hero-img-overlay"></div>
@@ -151,7 +148,7 @@ export default function HeroBanner({ onExploreClick }) {
             <div className="studio-seal-stamp">
               <div className="seal-inner">
                 <span>ESTD</span>
-                <strong>PEBBLE</strong>
+                <strong>ARVON</strong>
                 <span>2024</span>
               </div>
             </div>

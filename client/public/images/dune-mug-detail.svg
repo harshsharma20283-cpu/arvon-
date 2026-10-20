@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="detail-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFE6DA"/>
+      <stop offset="100%" stop-color="#D8C8B5"/>
+    </linearGradient>
+    <linearGradient id="detail-clay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D0C2B2"/>
+      <stop offset="40%" stop-color="#FAF5EE"/>
+      <stop offset="80%" stop-color="#DCD0C0"/>
+      <stop offset="100%" stop-color="#BDAA95"/>
+    </linearGradient>
+    <linearGradient id="detail-terracotta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AF532E"/>
+      <stop offset="50%" stop-color="#CF6F47"/>
+      <stop offset="100%" stop-color="#803817"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#detail-bg)"/>
+  <!-- Close-up angled view of the raw clay base, glaze dip line, and thumb groove -->
+  <path d="M120 180 L200 680 Q205 720 250 720 L680 720 Q720 720 730 680 L760 180 Z" fill="url(#detail-clay)"/>
+  <!-- Dipped organic wavy glaze boundary -->
+  <path d="M150 480 Q250 510 360 470 Q480 430 580 490 Q680 540 740 470 L730 680 Q720 720 680 720 L250 720 Q205 720 200 680 Z" fill="url(#detail-terracotta)"/>
+  <!-- Close-up stamp mark -->
+  <rect x="360" y="550" width="80" height="70" rx="10" fill="#753012" stroke="#5C250D" stroke-width="3"/>
+  <text x="400" y="596" font-family="'Cinzel', serif" font-size="34" font-weight="700" fill="#F8EDE7" text-anchor="middle">ARVON</text>
+  <text x="400" y="612" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#E2B7A3" text-anchor="middle" letter-spacing="2">CONE 10</text>
+  <!-- Mineral iron flecks -->
+  <circle cx="280" cy="320" r="4" fill="#3D2E20" opacity="0.65"/>
+  <circle cx="480" cy="260" r="3.5" fill="#3D2E20" opacity="0.7"/>
+  <circle cx="560" cy="380" r="5" fill="#3D2E20" opacity="0.5"/>
+  <circle cx="340" cy="420" r="3" fill="#3D2E20" opacity="0.6"/>
+  <circle cx="620" cy="310" r="4" fill="#3D2E20" opacity="0.55"/>
+  <circle cx="220" cy="400" r="4.5" fill="#3D2E20" opacity="0.6"/>
+</svg>

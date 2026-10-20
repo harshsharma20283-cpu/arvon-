@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="matcha-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2EDE4"/>
+      <stop offset="100%" stop-color="#D6CEBE"/>
+    </linearGradient>
+    <linearGradient id="chawan-glaze" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7B8E78"/>
+      <stop offset="40%" stop-color="#A4B8A0"/>
+      <stop offset="80%" stop-color="#849880"/>
+      <stop offset="100%" stop-color="#556952"/>
+    </linearGradient>
+    <linearGradient id="whisk-stand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#82947F"/>
+      <stop offset="50%" stop-color="#B2C2AF"/>
+      <stop offset="100%" stop-color="#677A64"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#matcha-bg)"/>
+  <ellipse cx="400" cy="620" rx="300" ry="30" fill="rgba(35,45,30,0.22)"/>
+  <!-- Whisk Stand (Kusenaoshi) on Right -->
+  <path d="M570 590 C560 550 540 510 540 460 C540 420 570 380 590 380 C610 380 640 420 640 460 C640 510 620 550 610 590 Z" fill="url(#whisk-stand)"/>
+  <ellipse cx="590" cy="380" rx="16" ry="6" fill="#849880"/>
+  <!-- Traditional Asymmetrical Chawan Tea Bowl -->
+  <path d="M190 380 Q180 470 230 550 Q280 600 370 600 Q460 600 500 550 Q540 470 530 380 Z" fill="url(#chawan-glaze)"/>
+  <!-- Exposed Foot Rim (Kodai) -->
+  <ellipse cx="370" cy="595" rx="85" ry="15" fill="#755E4A"/>
+  <ellipse cx="370" cy="590" rx="80" ry="12" fill="#91765F"/>
+  <!-- Wood-Ash Glaze Pooling & Asymmetrical Rim -->
+  <path d="M190 380 Q360 410 530 380 Q450 350 360 355 Q260 360 190 380 Z" fill="#9FB39B" stroke="#687A65" stroke-width="2"/>
+  <ellipse cx="360" cy="380" rx="150" ry="35" fill="#475C44"/>
+  <!-- Vibrant Jade Green Ceremonial Matcha Foam -->
+  <ellipse cx="360" cy="385" rx="138" ry="28" fill="#5F8244"/>
+  <ellipse cx="360" cy="385" rx="120" ry="22" fill="#749C52"/>
+  <ellipse cx="355" cy="384" rx="90" ry="15" fill="#8BB863" opacity="0.9"/>
+  <!-- Micro Tea Foam Bubbles -->
+  <circle cx="330" cy="382" r="3" fill="#A8D67F" opacity="0.7"/>
+  <circle cx="380" cy="386" r="4" fill="#A8D67F" opacity="0.75"/>
+  <circle cx="350" cy="388" r="2.5" fill="#A8D67F" opacity="0.8"/>
+  <circle cx="410" cy="383" r="3" fill="#A8D67F" opacity="0.6"/>
+  <!-- Natural Crackle Glaze Line -->
+  <path d="M250 420 Q280 470 260 520 Q300 560 320 580" fill="none" stroke="#3F523C" stroke-width="2" opacity="0.45"/>
+  <path d="M430 430 Q410 490 450 530" fill="none" stroke="#3F523C" stroke-width="1.8" opacity="0.45"/>
+</svg>

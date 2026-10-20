@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="plate-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5EFE8"/>
+      <stop offset="100%" stop-color="#DCD0C2"/>
+    </linearGradient>
+    <linearGradient id="plate-clay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2"/>
+      <stop offset="50%" stop-color="#EBE2D5"/>
+      <stop offset="100%" stop-color="#CFC2B0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#plate-bg)"/>
+  <ellipse cx="400" cy="620" rx="310" ry="32" fill="rgba(40,30,20,0.18)"/>
+  <!-- Bottom Plate (Slightly Angled Offset) -->
+  <ellipse cx="400" cy="540" rx="300" ry="70" fill="url(#plate-clay)" stroke="#BAAFA0" stroke-width="2"/>
+  <ellipse cx="400" cy="540" rx="230" ry="48" fill="#E8DDD0"/>
+  <!-- Top Plate (Hand-pinched irregular soft rim) -->
+  <path d="M120 420 Q240 370 410 380 Q580 390 680 430 Q650 490 540 520 Q380 540 220 500 Q110 470 120 420 Z" fill="url(#plate-clay)" stroke="#C7BBAE" stroke-width="3"/>
+  <!-- Sunken Center Well for Pasta/Salad -->
+  <ellipse cx="400" cy="450" rx="190" ry="42" fill="#E8DFD3"/>
+  <ellipse cx="400" cy="452" rx="160" ry="32" fill="#DFD4C5"/>
+  <!-- Ceramic Specks -->
+  <circle cx="340" cy="430" r="2.5" fill="#5E4E3E" opacity="0.5"/>
+  <circle cx="450" cy="460" r="2" fill="#5E4E3E" opacity="0.6"/>
+  <circle cx="410" cy="425" r="3" fill="#5E4E3E" opacity="0.4"/>
+  <circle cx="280" cy="450" r="2" fill="#5E4E3E" opacity="0.5"/>
+  <circle cx="510" cy="440" r="2.5" fill="#5E4E3E" opacity="0.45"/>
+</svg>

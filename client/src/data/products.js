@@ -8,7 +8,7 @@ export const CATEGORIES = [
 
 export const PRODUCTS = [
   {
-    id: "pebble-mug-01",
+    id: "arvon-mug-01",
     title: "Dune Speckled Stoneware Mug",
     subtitle: "Wheel-thrown raw clay with matte bone glaze",
     category: "Mugs & Cups",
@@ -19,12 +19,11 @@ export const PRODUCTS = [
     inStock: true,
     stockCount: 14,
     badge: "Bestseller",
-    artisan: "Pebble Studio Kiln",
-    image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=80",
+    artisan: "Arvon Studio Kiln",
+    image: "/images/dune-mug.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1561047029-3000c68339ca?auto=format&fit=crop&w=900&q=80"
+      "/images/dune-mug.svg",
+      "/images/dune-mug-detail.svg"
     ],
     description: "Individually thrown on a kick-wheel using iron-rich terracotta stoneware. Glazed in a soft oat-white reactive dip that reveals subtle specks and fire-marks from the 1240°C high kiln firing. The broad thumb rest makes every morning brew comforting.",
     specs: {
@@ -36,7 +35,7 @@ export const PRODUCTS = [
     }
   },
   {
-    id: "pebble-mug-02",
+    id: "arvon-mug-02",
     title: "Terracotta Cloud Espresso Cup & Saucer",
     subtitle: "Fluted handle espresso duo with unglazed saucer",
     category: "Mugs & Cups",
@@ -48,10 +47,10 @@ export const PRODUCTS = [
     stockCount: 8,
     badge: "Staff Pick",
     artisan: "Meera Sen, Pondicherry Studio",
-    image: "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?auto=format&fit=crop&w=900&q=80",
+    image: "/images/espresso-cup.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=80"
+      "/images/espresso-cup.svg",
+      "/images/espresso-cup-saucer.svg"
     ],
     description: "Designed for slow mornings and double shots. A thick thermal wall retains heat naturally, paired with a tactile rough-sanded saucer crafted from natural red alluvial earth. Each set bears the artisan's signature impressed seal on the base.",
     specs: {
@@ -63,7 +62,7 @@ export const PRODUCTS = [
     }
   },
   {
-    id: "pebble-mug-03",
+    id: "arvon-mug-03",
     title: "Sienna Ribbed Cappuccino Mug",
     subtitle: "Deep umber ribbed body with ergonomic loop handle",
     category: "Mugs & Cups",
@@ -74,11 +73,11 @@ export const PRODUCTS = [
     inStock: true,
     stockCount: 11,
     badge: "Popular",
-    artisan: "Pebble Studio Kiln",
-    image: "https://images.unsplash.com/photo-1561047029-3000c68339ca?auto=format&fit=crop&w=900&q=80",
+    artisan: "Arvon Studio Kiln",
+    image: "/images/sienna-mug.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1561047029-3000c68339ca?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=80"
+      "/images/sienna-mug.svg",
+      "/images/sienna-mug-detail.svg"
     ],
     description: "Hand-grooved ridges provide a textured tactile grip that warms hands on cool evenings. Kiln-fired with natural copper oxide slip for a rustic autumnal ombre finish that deepens toward the base.",
     specs: {
@@ -90,7 +89,7 @@ export const PRODUCTS = [
     }
   },
   {
-    id: "pebble-mug-04",
+    id: "arvon-mug-04",
     title: "Komorebi Matcha Chawan & Whisk Stand",
     subtitle: "Ceremonial ceramic tea bowl with wood-ash glaze",
     category: "Mugs & Cups",
@@ -102,9 +101,10 @@ export const PRODUCTS = [
     stockCount: 5,
     badge: "Limited Batch",
     artisan: "Devraj Ceramic Arts",
-    image: "https://images.unsplash.com/photo-1579618218290-311dd65e5e6e?auto=format&fit=crop&w=900&q=80",
+    image: "/images/matcha-chawan.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1579618218290-311dd65e5e6e?auto=format&fit=crop&w=900&q=80"
+      "/images/matcha-chawan.svg",
+      "/images/matcha-whisk.svg"
     ],
     description: "Crafted following classic Wabi-Sabi aesthetics with intentional organic asymmetry. Coated with organic wood-ash glaze that puddles into rich celadon hues during high-temperature reduction firing.",
     specs: {
@@ -116,7 +116,7 @@ export const PRODUCTS = [
     }
   },
   {
-    id: "pebble-vase-01",
+    id: "arvon-vase-01",
     title: "Alba Fluted Sculptural Vase",
     subtitle: "Architectural fluted stoneware statement vessel",
     category: "Vases & Vessels",
@@ -128,10 +128,10 @@ export const PRODUCTS = [
     stockCount: 6,
     badge: "New Release",
     artisan: "Ananya Rao Studio",
-    image: "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=900&q=80",
+    image: "/images/alba-vase.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=900&q=80"
+      "/images/alba-vase.svg",
+      "/images/alba-vase-fluted.svg"
     ],
     description: "A commanding decorative vessel inspired by Brutalist columns and dry riverbeds. Its vertical fluting catches the ambient sunlight across rooms. Watertight interior suitable for fresh botanicals or dried pampas.",
     specs: {
@@ -143,7 +143,7 @@ export const PRODUCTS = [
     }
   },
   {
-    id: "pebble-vase-02",
+    id: "arvon-vase-02",
     title: "Terra Amphora Handle Vase",
     subtitle: "Dual-handled rustic vessel in unglazed terracotta",
     category: "Vases & Vessels",
@@ -155,9 +155,10 @@ export const PRODUCTS = [
     stockCount: 9,
     badge: "Bestseller",
     artisan: "Khurja Heritage Collective",
-    image: "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=900&q=80",
+    image: "/images/terra-amphora.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=900&q=80"
+      "/images/terra-amphora.svg",
+      "/images/terra-amphora-detail.svg"
     ],
     description: "Rooted in ancient Mediterranean and Indus pottery forms. Features pinched loop ears and a coarse textured exterior that celebrates the mineral rich Indian terracotta earth.",
     specs: {
@@ -169,7 +170,7 @@ export const PRODUCTS = [
     }
   },
   {
-    id: "pebble-vase-03",
+    id: "arvon-vase-03",
     title: "Solace Petite Bud Vase Trio",
     subtitle: "Set of three miniature stoneware vessels",
     category: "Vases & Vessels",
@@ -180,10 +181,11 @@ export const PRODUCTS = [
     inStock: true,
     stockCount: 16,
     badge: "Gift Favorite",
-    artisan: "Pebble Studio Kiln",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
+    artisan: "Arvon Studio Kiln",
+    image: "/images/solace-vases.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
+      "/images/solace-vases.svg",
+      "/images/solace-vases-trio.svg"
     ],
     description: "Curated trio in complementary muted shades: Oatmeal, Dusty Olive, and Burnt Clay. Perfect for single wildflower stems, eucalyptus sprigs, or styling along bookshelves and window sills.",
     specs: {
@@ -195,7 +197,7 @@ export const PRODUCTS = [
     }
   },
   {
-    id: "pebble-bowl-01",
+    id: "arvon-bowl-01",
     title: "Kintsugi-Inspired Ceramic Ramen Bowl",
     subtitle: "Deep flared serving bowl with chopstick rest notch",
     category: "Bowls & Tableware",
@@ -206,10 +208,11 @@ export const PRODUCTS = [
     inStock: true,
     stockCount: 12,
     badge: "Bestseller",
-    artisan: "Pebble Studio Kiln",
-    image: "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=900&q=80",
+    artisan: "Arvon Studio Kiln",
+    image: "/images/kintsugi-bowl.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=900&q=80"
+      "/images/kintsugi-bowl.svg",
+      "/images/kintsugi-bowl-gold.svg"
     ],
     description: "Designed for steaming broths, grain bowls, and mindful dining. Each bowl features a subtle hand-painted gold oxide rim accent honoring the philosophy of finding beauty in imperfection.",
     specs: {
@@ -221,7 +224,7 @@ export const PRODUCTS = [
     }
   },
   {
-    id: "pebble-bowl-02",
+    id: "arvon-bowl-02",
     title: "Organica Shallow Pasta Plates (Set of 2)",
     subtitle: "Wide undulating rim plates for artisan dining",
     category: "Bowls & Tableware",
@@ -233,9 +236,10 @@ export const PRODUCTS = [
     stockCount: 7,
     badge: "Hand-Pinched",
     artisan: "Meera Sen",
-    image: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=900&q=80",
+    image: "/images/organica-plates.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=900&q=80"
+      "/images/organica-plates.svg",
+      "/images/organica-plates-detail.svg"
     ],
     description: "Slab-rolled and slumped over organic molds for softly irregular edges. The subtle curve holds risottos, salads, or handmade pastas with effortless European bistro elegance.",
     specs: {
@@ -247,7 +251,7 @@ export const PRODUCTS = [
     }
   },
   {
-    id: "pebble-decor-01",
+    id: "arvon-decor-01",
     title: "Monolith Ceramic Incense & Candleholder",
     subtitle: "Multifunctional sculptural brass-fitted clay stand",
     category: "Home Decor & Accents",
@@ -258,10 +262,11 @@ export const PRODUCTS = [
     inStock: true,
     stockCount: 20,
     badge: "Popular",
-    artisan: "Pebble Studio Kiln",
-    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=80",
+    artisan: "Arvon Studio Kiln",
+    image: "/images/monolith-candle.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=80"
+      "/images/monolith-candle.svg",
+      "/images/monolith-candle-holder.svg"
     ],
     description: "Accommodates both taper candles and dhoop/incense sticks. Cast in heavy stoneware to remain stable on coffee tables, altar nooks, and bedside nightstands.",
     specs: {
@@ -273,7 +278,7 @@ export const PRODUCTS = [
     }
   },
   {
-    id: "pebble-decor-02",
+    id: "arvon-decor-02",
     title: "Sylvan Ceramic Oil Diffuser & Warmer",
     subtitle: "Porous ceramic aroma lamp with carved tea-light arch",
     category: "Home Decor & Accents",
@@ -285,9 +290,10 @@ export const PRODUCTS = [
     stockCount: 10,
     badge: "Relaxation",
     artisan: "Devraj Ceramic Arts",
-    image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=900&q=80",
+    image: "/images/sylvan-diffuser.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=900&q=80"
+      "/images/sylvan-diffuser.svg",
+      "/images/sylvan-diffuser-lamp.svg"
     ],
     description: "Fill your space with botanical fragrances. The gently cupped basin holds water and pure essential oils above a flicker of tea-light warmth, radiating amber light through its hand-carved arch.",
     specs: {
@@ -298,8 +304,8 @@ export const PRODUCTS = [
     }
   },
   {
-    id: "pebble-decor-03",
-    title: "Pebble Clay Footed Catchall Dish",
+    id: "arvon-decor-03",
+    title: "Arvon Clay Footed Catchall Dish",
     subtitle: "Three-legged trinket dish for jewelry and crystals",
     category: "Home Decor & Accents",
     price: 549,
@@ -310,9 +316,10 @@ export const PRODUCTS = [
     stockCount: 18,
     badge: "Under ₹600",
     artisan: "Ananya Rao Studio",
-    image: "https://images.unsplash.com/photo-1590736704728-f4730bb30770?auto=format&fit=crop&w=900&q=80",
+    image: "/images/arvon-catchall.svg",
     additionalImages: [
-      "https://images.unsplash.com/photo-1590736704728-f4730bb30770?auto=format&fit=crop&w=900&q=80"
+      "/images/arvon-catchall.svg",
+      "/images/arvon-catchall-dish.svg"
     ],
     description: "Resting on three rounded tripod clay feet, this hand-pressed dish holds your daily rings, keys, or sage bundles with earthy grace.",
     specs: {

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="candle-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2EDE6"/>
+      <stop offset="100%" stop-color="#D5C7B8"/>
+    </linearGradient>
+    <linearGradient id="monolith-stone" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#262220"/>
+      <stop offset="40%" stop-color="#4A413D"/>
+      <stop offset="80%" stop-color="#312B28"/>
+      <stop offset="100%" stop-color="#1B1716"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7DE8B"/>
+      <stop offset="50%" stop-color="#CF9F3C"/>
+      <stop offset="100%" stop-color="#8C651A"/>
+    </linearGradient>
+    <radialGradient id="flame-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(255,190,80,0.8)"/>
+      <stop offset="50%" stop-color="rgba(255,140,40,0.3)"/>
+      <stop offset="100%" stop-color="rgba(255,100,0,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#candle-bg)"/>
+  <ellipse cx="400" cy="650" rx="240" ry="24" fill="rgba(30,25,20,0.25)"/>
+  <!-- Sculptural Monolith Oval Block with Grooves -->
+  <path d="M220 540 L220 600 Q220 630 400 630 Q580 630 580 600 L580 540 Z" fill="url(#monolith-stone)"/>
+  <ellipse cx="400" cy="540" rx="180" ry="40" fill="#3D3531" stroke="#544A45" stroke-width="2"/>
+  <!-- Brass Taper Candle Inset -->
+  <ellipse cx="330" cy="535" rx="36" ry="14" fill="url(#brass)"/>
+  <!-- Taper Candle Cylinder -->
+  <path d="M312 220 L312 530 Q312 535 330 535 Q348 535 348 530 L348 220 Z" fill="#FBF8F2"/>
+  <ellipse cx="330" cy="220" rx="18" ry="6" fill="#EDE4D5"/>
+  <!-- Wick -->
+  <path d="M330 220 L330 185" stroke="#3D2B1F" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Candle Flame with Warm Golden Aura -->
+  <circle cx="330" cy="165" r="70" fill="url(#flame-glow)"/>
+  <path d="M330 135 C310 160 315 185 330 185 C345 185 350 160 330 135 Z" fill="#FFC84A"/>
+  <path d="M330 150 C322 165 324 180 330 180 C336 180 338 165 330 150 Z" fill="#FFFFFF"/>
+  <!-- Incense Stick Well on the Right Side of Monolith -->
+  <ellipse cx="470" cy="538" rx="22" ry="8" fill="url(#brass)"/>
+  <!-- Fine Incense Stick & Smoke -->
+  <path d="M470 538 L495 320" stroke="#75482F" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Glowing Incense Tip -->
+  <circle cx="495" cy="320" r="3" fill="#FF5E24"/>
+  <!-- Wisp of Incense Smoke -->
+  <path d="M495 320 Q515 280 485 240 Q465 200 480 160" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+</svg>

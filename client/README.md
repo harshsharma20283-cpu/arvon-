@@ -1,16 +1,56 @@
-# React + Vite
+# Arvon — Handcrafted Ceramics & Living (Client)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A boutique e-commerce web application for **Arvon**, an artisan studio specializing in handmade ceramic mugs, fluted vases, and home decor.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Framework**: React 19 + Vite
+- **Styling**: Pure handcrafted CSS (warm terracotta, raw stoneware cream, sand, and charcoal tones)
+- **Animations**: GSAP (GreenSock Animation Platform) for smooth editorial hero reveals, modal transitions, card lifts, and drawer animations
+- **Celebration Effects**: canvas-confetti on successful order placement
+- **Icons**: Lucide React
+- **Currency**: Indian Rupees (₹)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features Included
+1. **Interactive Product Catalog**:
+   - Filter by categories: *Mugs & Cups*, *Vases & Vessels*, *Bowls & Tableware*, *Home Decor & Accents*
+   - Live search matching product titles, descriptions, and master potter names
+   - Sorting by Featured, Price (Low to High, High to Low), Top Rated, and Most Reviewed
+   - In-Stock toggle filter
+2. **GSAP Micro-Interactions**:
+   - Hero entrance animation sequence
+   - Product card hover elevation & image zooms
+   - Quick View dialog with smooth scale/fade
+   - Slide-in Tote (Cart) and Wishlist drawers
+3. **Cart Drawer**:
+   - Persistent tote state in `localStorage`
+   - Free shipping progress bar (Free insured express shipping above ₹1,499)
+   - Quantity stepper and item removal
+   - Promo code engine (`ARVON10` for 10% off, `CLAY15` for 15% off)
+   - Indian GST (5% ceramic tax) & shipping calculations
+4. **Product Details Modal**:
+   - Multi-angle gallery thumbnails
+   - Atelier specifications (Dimensions, Capacity, Clay composition, Glaze finish, Care instructions)
+   - Batch stock counter ("Only X left in current kiln batch")
+   - Instant "Add to Tote" and "Instant Order" buttons
+5. **Checkout Flow**:
+   - Step 1: Customer details & Indian delivery address (with PIN code)
+   - Step 2: Payment method selection (Instant UPI / GPay / PhonePe, Credit/Debit cards, Netbanking, Cash on Delivery)
+   - Step 3: Mock order confirmation receipt with confetti, generated Order ID (`PEB-XXXXXX`), and dispatch timeline
+6. **Backend Server Integration**:
+   - Live connection indicator pinging `http://localhost:5000/api/health` without modifying `server/`.
 
-## React Compiler
+## Running the Application
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Start the Frontend
+```bash
+cd client
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 2. Start the Backend (Optional)
+```bash
+cd server
+npm run dev
+```
+Runs Express + MongoDB on [http://localhost:5000](http://localhost:5000). The frontend will automatically detect the server and show the green "API Live" badge in the navbar.

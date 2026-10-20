@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="esp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7EFE6"/>
+      <stop offset="100%" stop-color="#E5D6C5"/>
+    </linearGradient>
+    <linearGradient id="esp-clay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C26038"/>
+      <stop offset="30%" stop-color="#E27E56"/>
+      <stop offset="70%" stop-color="#C7643C"/>
+      <stop offset="100%" stop-color="#8F3E1E"/>
+    </linearGradient>
+    <linearGradient id="saucer-clay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9C4725"/>
+      <stop offset="50%" stop-color="#D97A52"/>
+      <stop offset="100%" stop-color="#7B3316"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#esp-bg)"/>
+  <ellipse cx="400" cy="620" rx="260" ry="25" fill="rgba(40,25,15,0.22)"/>
+  <!-- Saucer -->
+  <ellipse cx="400" cy="590" rx="240" ry="38" fill="url(#saucer-clay)"/>
+  <ellipse cx="400" cy="585" rx="220" ry="30" fill="#E8DDD0"/>
+  <ellipse cx="400" cy="587" rx="190" ry="24" fill="url(#saucer-clay)"/>
+  <!-- Cup Handle -->
+  <path d="M470 420 C540 420 540 500 460 500" fill="none" stroke="url(#esp-clay)" stroke-width="24" stroke-linecap="round"/>
+  <!-- Espresso Cup Body -->
+  <path d="M320 380 L345 540 Q350 560 375 560 L425 560 Q450 560 455 540 L480 380 Z" fill="url(#esp-clay)"/>
+  <!-- Fluted Vertical Grooves on Cup -->
+  <path d="M350 395 L365 535" stroke="#7A3215" stroke-width="3" opacity="0.4" stroke-linecap="round"/>
+  <path d="M380 398 L390 540" stroke="#7A3215" stroke-width="3" opacity="0.4" stroke-linecap="round"/>
+  <path d="M410 398 L410 540" stroke="#ECA080" stroke-width="3" opacity="0.4" stroke-linecap="round"/>
+  <path d="M435 396 L428 535" stroke="#ECA080" stroke-width="3" opacity="0.4" stroke-linecap="round"/>
+  <!-- Interior Glaze & Dark Crema -->
+  <ellipse cx="400" cy="380" rx="80" ry="20" fill="#EFE5D8" stroke="#A64E2A" stroke-width="2"/>
+  <ellipse cx="400" cy="380" rx="70" ry="15" fill="#422213"/>
+  <ellipse cx="400" cy="380" rx="60" ry="12" fill="#754322" opacity="0.9"/>
+  <ellipse cx="395" cy="378" rx="42" ry="7" fill="#C2864C" opacity="0.85"/>
+  <!-- Warm Steam -->
+  <path d="M385 340 Q375 300 395 260" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M415 330 Q430 290 415 250" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+</svg>

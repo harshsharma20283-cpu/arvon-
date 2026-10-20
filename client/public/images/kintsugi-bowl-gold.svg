@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gold-detail-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAE3D8"/>
+      <stop offset="100%" stop-color="#C5B6A3"/>
+    </linearGradient>
+    <linearGradient id="pure-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2A3"/>
+      <stop offset="50%" stop-color="#E8AA35"/>
+      <stop offset="100%" stop-color="#8F5E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#gold-detail-bg)"/>
+  <!-- Macro view of pure gold seam along dark textured charcoal stone -->
+  <rect x="120" y="80" width="560" height="640" rx="30" fill="#241E1C"/>
+  <path d="M220 120 L260 220 L340 280 L310 400 L440 500 L490 680" fill="none" stroke="url(#pure-gold)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M340 280 L440 290 L480 360" fill="none" stroke="url(#pure-gold)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="560" y="240" font-family="'Cinzel', serif" font-size="28" font-weight="700" fill="#E8AA35">KINTSUGI</text>
+  <text x="560" y="275" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#B5A496" letter-spacing="2">GOLD OXIDE ACCENT</text>
+</svg>

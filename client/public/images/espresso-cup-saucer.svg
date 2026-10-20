@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="saucer-view-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2EAE0"/>
+      <stop offset="100%" stop-color="#DAC7B2"/>
+    </linearGradient>
+    <linearGradient id="clay-top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97A52"/>
+      <stop offset="100%" stop-color="#8F3E1E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#saucer-view-bg)"/>
+  <!-- Top-down view of espresso cup with creamy heart latte art -->
+  <circle cx="400" cy="400" r="300" fill="rgba(40,25,15,0.18)"/>
+  <circle cx="400" cy="395" r="280" fill="url(#clay-top)"/>
+  <circle cx="400" cy="395" r="255" fill="#EAE0D2"/>
+  <circle cx="400" cy="395" r="235" fill="url(#clay-top)"/>
+  <!-- Cup Rim -->
+  <circle cx="400" cy="395" r="160" fill="#FFFDF8"/>
+  <circle cx="400" cy="395" r="145" fill="#4A2613"/>
+  <circle cx="400" cy="395" r="135" fill="#69371D"/>
+  <!-- Golden Crema & Latte Art Heart -->
+  <path d="M400 370 C370 330 320 350 320 395 C320 440 370 465 400 485 C430 465 480 440 480 395 C480 350 430 330 400 370 Z" fill="#E8D1B5"/>
+  <path d="M400 375 C375 345 335 360 335 395 C335 430 375 450 400 470 C425 450 465 430 465 395 C465 360 425 345 400 375 Z" fill="#FAF4EB"/>
+</svg>

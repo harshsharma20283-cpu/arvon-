@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="alba-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F1E8"/>
+      <stop offset="100%" stop-color="#E2D4C3"/>
+    </linearGradient>
+    <linearGradient id="alba-clay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6CBC0"/>
+      <stop offset="30%" stop-color="#FAF6F0"/>
+      <stop offset="70%" stop-color="#DDD3C8"/>
+      <stop offset="100%" stop-color="#C0B2A3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#alba-bg)"/>
+  <ellipse cx="400" cy="670" rx="160" ry="22" fill="rgba(40,30,25,0.24)"/>
+  <!-- Tall Minimalist Fluted Column Vase -->
+  <path d="M330 200 L320 630 Q320 650 350 650 L450 650 Q480 650 480 630 L470 200 Z" fill="url(#alba-clay)"/>
+  <!-- Architectural Fluted Grooves -->
+  <path d="M345 210 L340 640" stroke="#9E8F7F" stroke-width="6" opacity="0.4" stroke-linecap="round"/>
+  <path d="M345 210 L340 640" stroke="#FFFFFF" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+  <path d="M375 212 L372 645" stroke="#9E8F7F" stroke-width="6" opacity="0.35" stroke-linecap="round"/>
+  <path d="M375 212 L372 645" stroke="#FFFFFF" stroke-width="2" opacity="0.8" stroke-linecap="round"/>
+  <path d="M400 214 L400 648" stroke="#9E8F7F" stroke-width="6" opacity="0.3" stroke-linecap="round"/>
+  <path d="M400 214 L400 648" stroke="#FFFFFF" stroke-width="3" opacity="0.9" stroke-linecap="round"/>
+  <path d="M425 212 L428 645" stroke="#7A6B5B" stroke-width="6" opacity="0.45" stroke-linecap="round"/>
+  <path d="M425 212 L428 645" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5" stroke-linecap="round"/>
+  <path d="M455 210 L460 640" stroke="#7A6B5B" stroke-width="6" opacity="0.55" stroke-linecap="round"/>
+  <!-- Top Rim and Opening -->
+  <ellipse cx="400" cy="200" rx="70" ry="20" fill="#E8DEC3" stroke="#BAAA96" stroke-width="2"/>
+  <ellipse cx="400" cy="200" rx="55" ry="14" fill="#3D3228"/>
+  <!-- Dried botanical stem coming out -->
+  <path d="M400 200 Q420 120 390 60 Q380 40 370 20" fill="none" stroke="#7D6B58" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="380" cy="90" rx="10" ry="5" transform="rotate(-30 380 90)" fill="#6E5D4A"/>
+  <ellipse cx="410" cy="130" rx="12" ry="6" transform="rotate(35 410 130)" fill="#8A7763"/>
+</svg>

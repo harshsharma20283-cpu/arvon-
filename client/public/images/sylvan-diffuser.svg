@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="diffuser-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4EEE4"/>
+      <stop offset="100%" stop-color="#DAD0C0"/>
+    </linearGradient>
+    <linearGradient id="warm-clay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C76E46"/>
+      <stop offset="40%" stop-color="#E58B65"/>
+      <stop offset="80%" stop-color="#BA6038"/>
+      <stop offset="100%" stop-color="#8F3C1A"/>
+    </linearGradient>
+    <radialGradient id="tea-light-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFDD7A"/>
+      <stop offset="40%" stop-color="#FF9D3B"/>
+      <stop offset="100%" stop-color="rgba(143,60,26,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#diffuser-bg)"/>
+  <ellipse cx="400" cy="650" rx="200" ry="24" fill="rgba(40,25,15,0.25)"/>
+  <!-- Cylindrical Diffuser Lamp Body -->
+  <path d="M290 280 L290 610 Q290 630 320 630 L480 630 Q510 630 510 610 L510 280 Z" fill="url(#warm-clay)"/>
+  <!-- Top Sunken Essential Oil Dish Basin -->
+  <ellipse cx="400" cy="280" rx="110" ry="32" fill="#EADCCB" stroke="#9E4E2C" stroke-width="2"/>
+  <ellipse cx="400" cy="280" rx="95" ry="22" fill="#FAF6EE"/>
+  <!-- Water & Fragrance Oil Layer with Golden Sheen -->
+  <ellipse cx="400" cy="282" rx="80" ry="16" fill="#F4DCA4"/>
+  <ellipse cx="395" cy="280" rx="45" ry="8" fill="#FFF2D1"/>
+  <!-- Carved Arch Opening for Tea-light Candle -->
+  <path d="M350 610 L350 480 Q400 420 450 480 L450 610 Z" fill="#2E160C"/>
+  <!-- Amber Candlelight Glow radiating from inside the arch -->
+  <ellipse cx="400" cy="550" rx="70" ry="50" fill="url(#tea-light-glow)"/>
+  <!-- Little Aluminum Tea-light cup and flame -->
+  <rect x="375" y="580" width="50" height="20" rx="3" fill="#DCDCDC"/>
+  <ellipse cx="400" cy="580" rx="25" ry="5" fill="#FFFFFF"/>
+  <path d="M400 550 C390 565 393 578 400 578 C407 578 410 565 400 550 Z" fill="#FFA929"/>
+  <!-- Side Carved Star/Dot Perforations that glow -->
+  <circle cx="325" cy="400" r="8" fill="#FFC85C"/>
+  <circle cx="325" cy="440" r="6" fill="#FFA83B"/>
+  <circle cx="475" cy="400" r="8" fill="#FFC85C"/>
+  <circle cx="475" cy="440" r="6" fill="#FFA83B"/>
+  <circle cx="400" cy="360" r="9" fill="#FFDC7A"/>
+</svg>

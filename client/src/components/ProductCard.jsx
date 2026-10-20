@@ -1,7 +1,6 @@
-import React, { useRef } from "react";
-import { Star, Heart, Eye, ShoppingBag, Check } from "lucide-react";
+import React from "react";
+import { Star, Heart, Eye, ShoppingBag } from "lucide-react";
 import { useCart } from "../context/CartContext";
-import gsap from "gsap";
 
 export default function ProductCard({ product }) {
   const {
@@ -11,38 +10,11 @@ export default function ProductCard({ product }) {
     toggleWishlist
   } = useCart();
 
-  const cardRef = useRef(null);
   const isWishlisted = wishlist.some((item) => item.id === product.id);
-
-  const handleMouseEnter = () => {
-    gsap.to(cardRef.current, {
-      y: -6,
-      boxShadow: "0 18px 36px -12px rgba(92, 64, 51, 0.16)",
-      duration: 0.35,
-      ease: "power2.out"
-    });
-  };
-
-  const handleMouseLeave = () => {
-    gsap.to(cardRef.current, {
-      y: 0,
-      boxShadow: "0 4px 16px -2px rgba(60, 40, 30, 0.06)",
-      duration: 0.35,
-      ease: "power2.out"
-    });
-  };
 
   const handleAddToCart = (e) => {
     e.stopPropagation();
     addToCart(product, 1);
-
-    // Pulse animation on button
-    const btn = e.currentTarget;
-    gsap.fromTo(
-      btn,
-      { scale: 0.92 },
-      { scale: 1, duration: 0.3, ease: "back.out(2)" }
-    );
   };
 
   const discountPercent = Math.round(
@@ -52,9 +24,6 @@ export default function ProductCard({ product }) {
   return (
     <article
       className="product-card"
-      ref={cardRef}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
       onClick={() => setQuickViewProduct(product)}
     >
       {/* Image container */}
@@ -64,6 +33,9 @@ export default function ProductCard({ product }) {
           alt={product.title}
           className="product-img"
           loading="lazy"
+          onError={(e) => {
+            e.currentTarget.src = "/images/dune-mug.svg";
+          }}
         />
 
         {/* Badge */}

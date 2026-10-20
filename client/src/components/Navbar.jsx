@@ -6,9 +6,7 @@ import {
   X,
   Server,
   Sparkles,
-  Menu,
-  CheckCircle2,
-  AlertCircle
+  Menu
 } from "lucide-react";
 import { useCart } from "../context/CartContext";
 
@@ -44,7 +42,7 @@ export default function Navbar({
         <div className="announcement-content">
           <span className="announcement-pill">Kiln Drop 04</span>
           <span>
-            Complimentary insured shipping on all studio orders above ₹1,499 • Use code <strong>PEBBLE10</strong> for 10% off
+            Complimentary insured shipping on all studio orders above ₹1,499 • Use code <strong>ARVON10</strong> for 10% off
           </span>
           <span className="announcement-badge">
             <Sparkles size={13} style={{ display: "inline", marginRight: "4px" }} />
@@ -67,9 +65,9 @@ export default function Navbar({
 
           {/* Brand Logo */}
           <a href="#" className="brand-logo" onClick={(e) => { e.preventDefault(); setSelectedCategory("All Pieces"); }}>
-            <span className="brand-mark">P</span>
+            <span className="brand-mark">A</span>
             <div className="brand-text-group">
-              <span className="brand-name">PEBBLE</span>
+              <span className="brand-name">ARVON</span>
               <span className="brand-sub">Studio Ceramics • India</span>
             </div>
           </a>

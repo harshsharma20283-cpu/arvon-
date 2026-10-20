@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="alba-close-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFE6DC"/>
+      <stop offset="100%" stop-color="#D7C5B0"/>
+    </linearGradient>
+    <linearGradient id="column-texture" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B8A999"/>
+      <stop offset="50%" stop-color="#FAF6F0"/>
+      <stop offset="100%" stop-color="#A69787"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#alba-close-bg)"/>
+  <!-- Macro view of column fluting texture and shadow play -->
+  <rect x="100" y="50" width="600" height="700" rx="20" fill="url(#column-texture)"/>
+  <!-- Deep Architectural Vertical Ribs -->
+  <path d="M180 50 L180 750" stroke="#665747" stroke-width="18"/>
+  <path d="M190 50 L190 750" stroke="#FFFFFF" stroke-width="8" opacity="0.8"/>
+  <path d="M280 50 L280 750" stroke="#665747" stroke-width="18"/>
+  <path d="M290 50 L290 750" stroke="#FFFFFF" stroke-width="8" opacity="0.8"/>
+  <path d="M380 50 L380 750" stroke="#665747" stroke-width="18"/>
+  <path d="M390 50 L390 750" stroke="#FFFFFF" stroke-width="8" opacity="0.8"/>
+  <path d="M480 50 L480 750" stroke="#544537" stroke-width="18"/>
+  <path d="M490 50 L490 750" stroke="#FFFFFF" stroke-width="8" opacity="0.6"/>
+  <path d="M580 50 L580 750" stroke="#544537" stroke-width="18"/>
+  <path d="M590 50 L590 750" stroke="#FFFFFF" stroke-width="8" opacity="0.5"/>
+</svg>

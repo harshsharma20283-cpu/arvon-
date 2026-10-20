@@ -2,8 +2,8 @@ import React, { createContext, useContext, useState, useEffect } from "react";
 
 const CartContext = createContext();
 
-const CART_STORAGE_KEY = "pebble_artisan_cart_v1";
-const WISHLIST_STORAGE_KEY = "pebble_artisan_wishlist_v1";
+const CART_STORAGE_KEY = "arvon_artisan_cart_v1";
+const WISHLIST_STORAGE_KEY = "arvon_artisan_wishlist_v1";
 
 export function CartProvider({ children }) {
   // Cart state persisted in localStorage
@@ -143,10 +143,10 @@ export function CartProvider({ children }) {
 
   const applyPromo = (code) => {
     const clean = code.trim().toUpperCase();
-    if (clean === "PEBBLE10") {
+    if (clean === "ARVON10") {
       setDiscountPercent(10);
-      setAppliedPromo("PEBBLE10 (10% OFF)");
-      showToast("Code PEBBLE10 applied! 10% discount added.");
+      setAppliedPromo("ARVON10 (10% OFF)");
+      showToast("Code ARVON10 applied! 10% discount added.");
       return { success: true, message: "10% off applied!" };
     } else if (clean === "CLAY15") {
       setDiscountPercent(15);
@@ -154,7 +154,7 @@ export function CartProvider({ children }) {
       showToast("Code CLAY15 applied! 15% discount added.");
       return { success: true, message: "15% off applied!" };
     } else {
-      showToast("Invalid promo code. Try PEBBLE10", "error");
+      showToast("Invalid promo code. Try ARVON10", "error");
       return { success: false, message: "Invalid code" };
     }
   };

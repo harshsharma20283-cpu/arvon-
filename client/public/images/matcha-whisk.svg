@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="whisk-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAE3D5"/>
+      <stop offset="100%" stop-color="#CFC3AF"/>
+    </linearGradient>
+    <linearGradient id="bamboo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C2A882"/>
+      <stop offset="50%" stop-color="#E5CCA8"/>
+      <stop offset="100%" stop-color="#B09670"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#whisk-bg)"/>
+  <ellipse cx="400" cy="650" rx="160" ry="22" fill="rgba(40,30,20,0.2)"/>
+  <!-- Bamboo Chasen Whisk sitting in studio -->
+  <!-- Handle -->
+  <path d="M370 200 L370 380 Q370 400 400 400 Q430 400 430 380 L430 200 Z" fill="url(#bamboo)"/>
+  <ellipse cx="400" cy="200" rx="30" ry="10" fill="#D9BE96"/>
+  <!-- Black string wrap on bamboo -->
+  <rect x="368" y="340" width="64" height="20" rx="4" fill="#2E2620"/>
+  <!-- Fine curved bamboo tines spreading outward -->
+  <path d="M370 400 C300 500 320 620 400 620 C480 620 500 500 430 400 Z" fill="#F7EEDF" stroke="#B39972" stroke-width="2"/>
+  <path d="M380 400 C340 480 350 580 400 580 C450 580 460 480 420 400 Z" fill="#E5D3BA" stroke="#9C835E" stroke-width="2"/>
+</svg>

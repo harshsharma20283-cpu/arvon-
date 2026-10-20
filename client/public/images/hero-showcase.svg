@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4ECE1"/>
+      <stop offset="50%" stop-color="#E8DCcb"/>
+      <stop offset="100%" stop-color="#DCCBB7"/>
+    </linearGradient>
+    <linearGradient id="clay-mug" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5DDD2"/>
+      <stop offset="35%" stop-color="#FAF5EE"/>
+      <stop offset="70%" stop-color="#E2D7C8"/>
+      <stop offset="100%" stop-color="#C5B6A3"/>
+    </linearGradient>
+    <linearGradient id="clay-base" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B85D38"/>
+      <stop offset="50%" stop-color="#D0734D"/>
+      <stop offset="100%" stop-color="#944525"/>
+    </linearGradient>
+    <linearGradient id="clay-handle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5EFE6"/>
+      <stop offset="100%" stop-color="#C3B49E"/>
+    </linearGradient>
+    <radialGradient id="shadow-blur" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(45,30,20,0.3)"/>
+      <stop offset="100%" stop-color="rgba(45,30,20,0)"/>
+    </radialGradient>
+    <filter id="noise" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.08 0" in="noise" result="coloredNoise"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="url(#hero-bg)"/>
+
+  <!-- Studio Ambient Lighting circle -->
+  <circle cx="400" cy="380" r="320" fill="#FAF6EE" opacity="0.45"/>
+
+  <!-- Ceramic Studio Floor Shadow -->
+  <ellipse cx="400" cy="590" rx="200" ry="28" fill="url(#shadow-blur)"/>
+  <ellipse cx="400" cy="585" rx="140" ry="16" fill="rgba(60,35,20,0.2)"/>
+
+  <!-- Botanical dried sprig in background -->
+  <path d="M530 520 Q560 380 500 240 Q470 170 450 140" fill="none" stroke="#7A8068" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="505" cy="235" rx="14" ry="7" transform="rotate(-35 505 235)" fill="#687056" opacity="0.8"/>
+  <ellipse cx="530" cy="290" rx="16" ry="8" transform="rotate(25 530 290)" fill="#788264" opacity="0.8"/>
+  <ellipse cx="490" cy="340" rx="15" ry="7" transform="rotate(-30 490 340)" fill="#687056" opacity="0.8"/>
+  <ellipse cx="545" cy="400" rx="17" ry="8" transform="rotate(20 545 400)" fill="#788264" opacity="0.8"/>
+  <ellipse cx="460" cy="150" rx="12" ry="6" transform="rotate(-40 460 150)" fill="#5A624A" opacity="0.85"/>
+
+  <!-- Mug Handle -->
+  <path d="M440 330 C560 330 550 490 435 490" fill="none" stroke="url(#clay-handle)" stroke-width="40" stroke-linecap="round"/>
+  <path d="M440 330 C530 330 520 490 435 490" fill="none" stroke="#6E5C49" stroke-width="2" opacity="0.25"/>
+
+  <!-- Mug Body -->
+  <path d="M300 280 L315 540 Q316 570 345 570 L435 570 Q464 570 465 540 L480 280 Z" fill="url(#clay-mug)"/>
+
+  <!-- Unglazed Terracotta Base Band -->
+  <path d="M312 510 L315 540 Q316 570 345 570 L435 570 Q464 570 465 540 L468 510 Q390 525 312 510 Z" fill="url(#clay-base)"/>
+
+  <!-- Rim Ellipse Top (interior glaze) -->
+  <ellipse cx="390" cy="280" rx="90" ry="24" fill="#E2D7C8" stroke="#B8A996" stroke-width="2"/>
+  <ellipse cx="390" cy="280" rx="80" ry="18" fill="#CBBBA6"/>
+  <ellipse cx="390" cy="283" rx="72" ry="14" fill="#5A4736" opacity="0.85"/>
+
+  <!-- Subtle Glaze Drip & Speckles -->
+  <circle cx="350" cy="360" r="2.5" fill="#5A4736" opacity="0.5"/>
+  <circle cx="430" cy="380" r="2" fill="#5A4736" opacity="0.6"/>
+  <circle cx="370" cy="420" r="3" fill="#5A4736" opacity="0.4"/>
+  <circle cx="410" cy="450" r="1.5" fill="#5A4736" opacity="0.5"/>
+  <circle cx="340" cy="470" r="2.5" fill="#5A4736" opacity="0.55"/>
+  <circle cx="440" cy="340" r="2" fill="#5A4736" opacity="0.45"/>
+  <circle cx="380" cy="320" r="2" fill="#5A4736" opacity="0.4"/>
+
+  <!-- Artisan Seal Impressed on Clay Base -->
+  <rect x="375" y="525" width="30" height="26" rx="4" fill="#944525" stroke="#7A3416" stroke-width="1.5"/>
+  <text x="390" y="543" font-family="'Cinzel', serif" font-size="14" font-weight="700" fill="#F7EBE4" text-anchor="middle">A</text>
+
+  <!-- Steam wisps -->
+  <path d="M360 250 Q350 200 375 160 Q395 120 380 80" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M410 240 Q430 190 415 150 Q400 110 420 70" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Studio Label Badge -->
+  <g transform="translate(60, 60)">
+    <rect width="180" height="42" rx="21" fill="#FFFFFF" opacity="0.9" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.06))"/>
+    <circle cx="24" cy="21" r="5" fill="#B85D38"/>
+    <text x="38" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#221C19" letter-spacing="1">ARVON ATELIER</text>
+  </g>
+</svg>

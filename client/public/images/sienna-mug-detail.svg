@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sienna-detail-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFE6DA"/>
+      <stop offset="100%" stop-color="#D5C3AE"/>
+    </linearGradient>
+    <linearGradient id="rib-clay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4E3326"/>
+      <stop offset="40%" stop-color="#80543E"/>
+      <stop offset="100%" stop-color="#362218"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#sienna-detail-bg)"/>
+  <!-- Macro view of hand-carved ribs and tactile umber slip -->
+  <rect x="150" y="100" width="500" height="600" rx="30" fill="url(#rib-clay)"/>
+  <!-- Rib waves -->
+  <path d="M150 200 Q400 240 650 200" stroke="#2B1A12" stroke-width="12" fill="none"/>
+  <path d="M150 196 Q400 236 650 196" stroke="#9E6E54" stroke-width="6" fill="none" opacity="0.6"/>
+  <path d="M150 320 Q400 360 650 320" stroke="#2B1A12" stroke-width="12" fill="none"/>
+  <path d="M150 316 Q400 356 650 316" stroke="#9E6E54" stroke-width="6" fill="none" opacity="0.6"/>
+  <path d="M150 440 Q400 480 650 440" stroke="#2B1A12" stroke-width="12" fill="none"/>
+  <path d="M150 436 Q400 476 650 436" stroke="#9E6E54" stroke-width="6" fill="none" opacity="0.6"/>
+  <path d="M150 560 Q400 600 650 560" stroke="#2B1A12" stroke-width="12" fill="none"/>
+  <path d="M150 556 Q400 596 650 556" stroke="#9E6E54" stroke-width="6" fill="none" opacity="0.6"/>
+  <!-- Ceramic studio maker's mark -->
+  <rect x="350" y="470" width="100" height="50" rx="6" fill="#2B1A12" stroke="#9E6E54" stroke-width="2"/>
+  <text x="400" y="504" font-family="'Cinzel', serif" font-size="20" font-weight="700" fill="#E8DDD0" text-anchor="middle">ARVON</text>
+</svg>
