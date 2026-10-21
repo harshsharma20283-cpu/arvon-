@@ -5,3 +5,5 @@ node_modules/
 
 arvon-3d-upgrade/
 arvon-3d-upgrade (1).zip
+.agents/
+.tmp_*/
